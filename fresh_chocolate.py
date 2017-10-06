@@ -27,17 +27,7 @@ for i in range(100):
             s.remove(m[1])
             s.remove(m[2])
             c += 1
-print(s)
-for i in range(100):
-    if len(s)>3:
 
-        m = random.sample(s, 4)
-        if (m[0] + m[1]+m[2]+m[3]) % p == 0:
-            s.remove(m[0])
-            s.remove(m[1])
-            s.remove(m[2])
-            s.remove(m[3])
-            c += 1
 print(s)
 if (len(s)==0):
     print(c)
